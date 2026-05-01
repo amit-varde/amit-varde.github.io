@@ -1,4 +1,0 @@
-theme: minima
-
-mdbook:
-  build_dir: book

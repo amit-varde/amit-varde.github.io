@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amit Varde — Publications</title>
+<style>
+  :root {
+    --li-blue: #0a66c2;
+    --li-blue-hover: #004182;
+    --li-bg: #f3f2ef;
+    --li-card: #ffffff;
+    --li-border: #e0dfdc;
+    --li-text: rgba(0,0,0,0.9);
+    --li-muted: rgba(0,0,0,0.6);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--li-bg);
+    color: var(--li-text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  header.topbar {
+    background: var(--li-blue);
+    color: #fff;
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+  }
+  header.topbar .brand { font-weight: 700; font-size: 16px; letter-spacing: 0.2px; }
+  header.topbar a { color: #fff; text-decoration: none; font-weight: 600; font-size: 13px; }
+  header.topbar a:hover { text-decoration: underline; }
+  main {
+    max-width: 768px;
+    margin: 24px auto;
+    padding: 0 12px;
+  }
+  .card {
+    background: var(--li-card);
+    border: 1px solid var(--li-border);
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.04);
+    padding: 24px;
+    margin-bottom: 16px;
+  }
+  h1 { font-size: 24px; font-weight: 600; margin: 0 0 8px; }
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 24px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--li-border);
+  }
+  h2:first-of-type { margin-top: 0; }
+  h3 { font-size: 16px; font-weight: 600; margin: 0 0 6px; }
+  a { color: var(--li-blue); text-decoration: none; font-weight: 600; }
+  a:hover { color: var(--li-blue-hover); text-decoration: underline; }
+  p { margin: 6px 0; }
+  .entry {
+    border: 1px solid var(--li-border);
+    border-radius: 6px;
+    padding: 12px 14px;
+    margin: 8px 0;
+    background: #fff;
+  }
+  .entry h3 a { color: var(--li-text); }
+  .entry h3 a:hover { color: var(--li-blue); }
+  .desc { color: var(--li-text); margin-top: 6px; }
+  .authors { color: var(--li-muted); font-size: 12px; margin-top: 8px; }
+  .authors a { font-weight: 500; }
+  .label { color: var(--li-muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+  footer { text-align: center; color: var(--li-muted); font-size: 12px; padding: 16px; }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <span class="brand">Amit Varde — Publications</span>
+  <a href="/">← Home</a>
+</header>
+
+<main>
+
+<section class="card">
+  <h1>Publications</h1>
+  <p class="label">Papers, talks, blogs, and white papers</p>
+</section>
+
+<section class="card">
+  <h2>2024</h2>
+
+  <h3>June 2024 — Design Automation Conference (DAC 2024)</h3>
+  <p>Presentations at <a href="https://61dac.conference-program.com/presenter/?uid=753743">Engineering Track Poster</a></p>
+
+  <div class="entry">
+    <h3><a href="https://61dac.conference-program.com/?post_type=page&amp;p=11&amp;id=ETPOST220&amp;sess=sess232">Overcoming Collaboration Hurdles in High-Tech Product Development with Keysight tool on Azure infrastructure.</a></h3>
+    <p class="label">Description</p>
+    <p class="desc">The intricate dance of high-tech product development demands seamless synchronization among partners. Miscommunication and data silos threaten deadlines, costs, and, ultimately, product quality. This abstract presents a solution to bridge these collaboration gaps. Current challenges in cross-company projects include unclear design interfaces and inadequate distributed team management. This often leads to fragmented data, hindered handoffs, and inefficient workflows. We propose a secure and scalable platform powered by Keysight technologies that is built on Azure's cloud infrastructure. This platform allows controlled data sharing between partners, fosters real-time communication, and facilitates centralized design data management. Imagine multiple partners seamlessly integrating their diverse tools, methodologies, and strengths through a single platform. Keysight and Microsoft empower "collaborative chambers" where roles are segregated, activities are monitored, and environments are effortlessly scaled or dismantled. The cloud-based model caters to all-in-cloud and hybrid collaboration needs, providing an ideal solution for enterprises and boutique design houses. The future of streamlined high-tech product development is one where collaboration is not a hurdle but a force multiplier for partnering customers.</p>
+    <p class="authors">
+      <strong>Authors:</strong>
+      <a href="https://61dac.conference-program.com/?post_type=page&amp;p=10&amp;uid=753743">Amit Varde</a>
+      (<a href="https://61dac.conference-program.com/?post_type=page&amp;p=13&amp;inst=15486872751447088923">Keysight Technologies</a>) ·
+      <a href="https://61dac.conference-program.com/?post_type=page&amp;p=10&amp;uid=653743">Joe Tostenrude</a>
+      (<a href="https://61dac.conference-program.com/?post_type=page&amp;p=13&amp;inst=1069068433276348817">Microsoft</a>)
+    </p>
+  </div>
+
+  <div class="entry">
+    <h3><a href="https://61dac.conference-program.com/?post_type=page&amp;p=11&amp;id=ETPOST221&amp;sess=sess233">True-Hybrid SaaS Cloud Architectures for EDA Workloads</a></h3>
+    <p class="label">Description</p>
+    <p class="desc">Modern chip development craves the cloud's immense power, but on-premises dependencies hold back a complete migration. This presentation introduces the "True Hybrid" workload model, where design emulation remains on-premises while simulation/verification soars in the cloud. Our approach tackles key challenges: splitting workloads efficiently, streamlining data across environments, and overcoming network bottlenecks. Keysight tools ensure secure, design-aware data exchange, while the AWS platform offers unparalleled security, scalability, and flexibility for high-throughput EDA tasks. Embrace the "True Hybrid" future to unlock the cloud's potential without sacrificing on-premises needs.</p>
+    <p class="authors">
+      <strong>Authors:</strong>
+      <a href="https://61dac.conference-program.com/?post_type=page&amp;p=10&amp;uid=43536076673297602811">Ravi Poddar</a>
+      (<a href="https://61dac.conference-program.com/?post_type=page&amp;p=13&amp;inst=9897625587968625230">Amazon Web Services</a>) ·
+      <a href="https://61dac.conference-program.com/?post_type=page&amp;p=10&amp;uid=753743">Amit Varde</a>
+      (<a href="https://61dac.conference-program.com/?post_type=page&amp;p=13&amp;inst=15486872751447088923">Keysight Technologies</a>) ·
+      <a href="https://61dac.conference-program.com/?post_type=page&amp;p=10&amp;uid=29981385940444403561">Nupur Bhonge</a>
+      (<a href="https://61dac.conference-program.com/?post_type=page&amp;p=13&amp;inst=15486872751447088923">Keysight Technologies</a>)
+    </p>
+  </div>
+
+  <div class="entry">
+    <h3>Is the Untapped Power of IP-driven methodologies in Azure your secret to a Competitive Advantage?</h3>
+    <p><a href="https://www.linkedin.com/pulse/join-microsoft-design-automation-conference-2024-june-richard-paw-sagdc/?trackingId=trXmkadjGsb%2Flm9H%2FYIERQ%3D%3D">Join Microsoft at the Design Automation Conference 2024 — June 24–26</a></p>
+    <p><a href="https://www.linkedin.com/posts/amitvarde_azure-microsoft-dac-activity-7212580439318777856-Ky0A?utm_source=share&amp;utm_medium=member_desktop">Pictures from the event</a></p>
+  </div>
+
+  <div class="entry">
+    <h3>May 22, 2024 — Blog</h3>
+    <p><a href="https://semiwiki.com/eda/keysight-eda/345265-the-git-dilemma-is-version-control-enough-for-semiconductor-success/">The Git Dilemma: Is Version Control Enough for Semiconductor Success?</a></p>
+  </div>
+
+  <div class="entry">
+    <h3>2024 — Invited Industry Expert Speaker at HEP-IC Workshop, BNL</h3>
+    <p class="desc">HEP-IC Workshop 2024 is the fourth in a series of workshops designed to bring together US scientists and engineers involved in developing integrated circuit electronics for particle physics and related applications. Participants from US laboratories and Universities will have an opportunity to learn about the latest activities and developments of the various groups, trends in IC design and fabrication, and new technologies that will be needed to enable future scientific goals. The workshop will also promote collaborations and the exchange of ideas on innovative circuit techniques and provide a forum to discuss new approaches to partnerships and optimize the use of technical resources. This workshop should provide a high-level overview of activities and opportunities for discussions and exploration of new ideas and partnerships to address the technical challenges posed by the next generation of HEP experiments.</p>
+    <p>May 2, 2024, 9:20 AM — <a href="https://indico.bnl.gov/event/22551/contributions/90250/">Common methodologies, cloud-based tools, technologies, modeling</a></p>
+  </div>
+
+  <div class="entry">
+    <h3>April 10, 2024 — Blog</h3>
+    <p><a href="https://www.keysight.com/blogs/en/tech/sim-des/2024/4/10/optimizing-ic-design-data-management">Optimizing IC Design Data Management: Git-R-Don't for Hardware Design</a></p>
+  </div>
+
+  <div class="entry">
+    <h3>April 10, 2024 — E-Book / White Paper</h3>
+    <p><a href="https://www.keysight.com/us/en/assets/3124-1286/white-papers/How-to-Calculate-the-ROI-of-Semiconductor-IP-Management.pdf">How to Calculate the ROI of Semiconductor IP Management</a></p>
+    <p><a href="https://www.linkedin.com/posts/amitvarde_how-to-calculate-the-roi-of-semiconductor-activity-7186059010473656320-Y0_Q?utm_source=share&amp;utm_medium=member_desktop">LinkedIn Post</a></p>
+  </div>
+
+  <div class="entry">
+    <h3>Jan 21, 2024 — Blog</h3>
+    <p><a href="https://medium.com/@tercel04/code-meets-silicon-navigating-gits-limits-in-semiconductor-chip-design-engineering-e175f1e74a84">Code Meets Silicon: Navigating Git's Limits in Semiconductor Chip Design Engineering</a></p>
+    <p class="authors">Rewrite of an earlier post on cliosoft.com (reposted after the Cliosoft acquisition).</p>
+  </div>
+</section>
+
+<section class="card">
+  <h2>2023</h2>
+
+  <div class="entry">
+    <h3>Sept 14, 2023 — Blog</h3>
+    <p><a href="https://semiengineering.com/unlocking-efficiency-the-power-of-ip-blocks-in-silicon-chip-design/">Unlocking Efficiency: The Power Of IP Blocks In Silicon Chip Design</a></p>
+  </div>
+
+  <div class="entry">
+    <h3>Speaking Sessions at DAC 2023 — July 2023</h3>
+    <p><a href="https://www.linkedin.com/posts/richardpaw_come-by-and-join-us-at-the-microsoft-booth-activity-7083901113258676224-9T6D?utm_source=share&amp;utm_medium=member_desktop">From Startups to Scaleups: Scaling Secure Silicon IP Management in the Cloud — Microsoft Theater</a></p>
+    <p><a href="https://www.dac.com/Conference/Transformative-Technologies-Theater">Technology Transformative Theater Panel</a>:
+      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7110082267527397377/">Are We There Yet? From Cloud-compatible to Cloud-optimized</a>
+    </p>
+    <p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7085497435145342976/">Revolutionizing Chip Design: BAE Systems &amp; Raytheon Collaboration — Empowering Next-Generation Chip Design in the Cloud with Keysight Technologies and Microsoft Azure</a></p>
+  </div>
+
+  <div class="entry">
+    <h3>April 27, 2023 — Blog</h3>
+    <p><a href="https://azure.microsoft.com/en-us/blog/managing-ip-with-microsoft-azure-and-cliosoft/">Managing IP with Microsoft Azure and Cliosoft</a> — with Azure Marketing, HPC + AI</p>
+  </div>
+
+  <div class="entry">
+    <h3>April 27, 2023 — E-Book</h3>
+    <p><a href="https://www.cliosoft.com/resources/ebooks/simplify-your-ip-management-cliosoft-on-microsoft-azure-for-efficient-source-code-handling/">Simplify Your IP Management: Cliosoft on Microsoft Azure for Efficient Source Code Handling</a> <em>(relocated)</em></p>
+  </div>
+</section>
+
+<section class="card">
+  <h2>2022</h2>
+
+  <div class="entry">
+    <h3>Apr 14, 2022 — Blog</h3>
+    <p><a href="https://semiengineering.com/design-aware-data-management-for-hybrid-cloud/">Design-Aware Data Management For Hybrid Cloud</a> — SemiEngineering</p>
+  </div>
+
+  <div class="entry">
+    <h3>Speaking Sessions DAC 2022 — July 2022</h3>
+    <p>A Next-Generation, Cloud-Based EDA Environment, Built Easily In The AWS Cloud</p>
+    <p>Science Without Boundaries: A Proven Method To Achieve Seamless Design Collaboration Between Cross-Institutional Project Teams</p>
+  </div>
+
+  <div class="entry">
+    <h3>2022 — Invited Industry Expert Speaker</h3>
+    <p class="desc">This Hybrid HEP-IC (High Energy Physics – Integrated Circuits) workshop is the third in a series of workshops designed to bring together US scientists and engineers involved in developing custom integrated circuits for the High Energy Physics communities. Emphasis will be on enabling collaboration between different groups, supporting the HEP-IC mission by aiding research with national partners and developing new technologies for science.</p>
+    <p><a href="https://indico.fnal.gov/event/52335/timetable/?view=standard_numbered">HEP-IC (High Energy Physics — Integrated Circuits) Workshop 2022</a></p>
+  </div>
+</section>
+
+<section class="card">
+  <h2>2021</h2>
+  <div class="entry">
+    <h3>Sep 27, 2021 — Blog</h3>
+    <p><a href="https://aws.amazon.com/blogs/hpc/cost-optimization-on-spot-instances-using-checkpoints-for-ansys-ls-dyna/">Cost-optimization on Spot Instances using checkpoints for Ansys LS-DYNA</a> — AWS HPC Blog</p>
+  </div>
+</section>
+
+<section class="card">
+  <h2>2020</h2>
+  <div class="entry">
+    <h3>Feb 24, 2020 — Blog</h3>
+    <p><a href="https://semiengineering.com/tracking-re-use-of-design-ips/">Tracking Re-Use Of Design IPs</a> — SemiEngineering</p>
+  </div>
+  <div class="entry">
+    <h3>Jan 09, 2020 — Blog</h3>
+    <p><a href="https://semiengineering.com/can-you-afford-to-waste-time-on-your-next-design-project/">Can You Afford To Waste Time On Your Next Design Project?</a> — semiengineering.com</p>
+  </div>
+</section>
+
+<section class="card">
+  <h2>2019</h2>
+  <div class="entry">
+    <h3>Sep 18, 2019 — Blog</h3>
+    <p><a href="https://semiengineering.com/no-mess-no-stress/">No Mess, No Stress — A Key Principle to Successful Tapeout</a> — semiengineering.com</p>
+  </div>
+  <div class="entry">
+    <h3>May 1, 2019 — White Paper (AWS)</h3>
+    <p><a href="https://docs.aws.amazon.com/whitepapers/latest/best-practices-deploying-cliosoft-sos-on-aws/best-practices-deploying-cliosoft-sos-on-aws.html">Best Practices for Deploying ClioSoft SOS on AWS</a></p>
+    <p>Original PDF: <a href="https://d1.awsstatic.com/whitepapers/best-practices-cliosoft-sos7-aws.pdf">best-practices-cliosoft-sos7-aws.pdf</a></p>
+  </div>
+  <div class="entry">
+    <h3>April 22, 2019 — Blog</h3>
+    <p><a href="https://cloud.google.com/blog/products/storage-data-transfer/cloud-filestore-powers-high-performance-storage-for-cliosofts-design-management-platform">Cloud Filestore powers high-performance storage for ClioSoft's design management platform</a> — Google Cloud Blog (Cloud FileStore Service GA)</p>
+  </div>
+</section>
+
+<section class="card">
+  <h2>2017</h2>
+  <div class="entry">
+    <h3>Invited Industry Expert Speaker</h3>
+    <p><a href="https://conf.slac.stanford.edu/hepic2017/">HEP-IC 2017 Workshop</a> — Oct 2017</p>
+  </div>
+</section>
+
+<section class="card">
+  <h2>2014</h2>
+  <div class="entry">
+    <h3>Apr 30, 2014 — Blog</h3>
+    <p><a href="https://www.embedded-computing.com/embedded-computing-design/importance-of-data-management-from-a-cad-engineers-perspective">Importance of data management from a CAD engineer's perspective</a> — Embedded Computing</p>
+  </div>
+</section>
+
+<section class="card">
+  <h2>2013</h2>
+  <div class="entry">
+    <h3>May 19, 2013 — Blog</h3>
+    <p><a href="https://semiwiki.com/eda/cliosoft/2310-supporting-the-customer-is-everyones-job/">Customer Success Management — Supporting the Customer is Everyone's Job</a> — SemiWiki.com</p>
+  </div>
+  <div class="entry">
+    <h3>May 23, 2013 — Blog</h3>
+    <p><a href="https://semiwiki.com/eda/cliosoft/3291-the-cad-team-unsung-heroes-in-a-successful-tapeout/">The CAD Team — Unsung Heroes in a Successful Tapeout</a> — SemiWiki</p>
+  </div>
+</section>
+
+<section class="card">
+  <h2>2006</h2>
+  <div class="entry">
+    <h3>Jan 1, 2006 — Paper</h3>
+    <p><a href="https://www.actapress.com/PaperInfo.aspx?PaperID=29150&amp;reason=500">Re-Synthesis Approach to Engineering Change Orders (ECOs)</a> — Circuits, Signals, and Systems, 2006</p>
+  </div>
+</section>
+
+<section class="card">
+  <h2>Academic Awards &amp; Papers</h2>
+
+  <div class="entry">
+    <h3>2004 — Design Automation Conference Graduate Scholarship</h3>
+    <p><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1322417">Synthesis of High-Performance Digital Circuits</a> — issued by DAC 2004, June 2004</p>
+  </div>
+
+  <div class="entry">
+    <h3>IASTED International Conference on Circuits, Signal &amp; Systems (CSS 2006)</h3>
+    <p class="authors">Atmanathan V, Amit Varde, Swetha A, Srikanth S, Sudarshan Iyenger; "Re-synthesis based ECO Methodology"; CSS 2006; Nov 28 – Dec 21, 2006, San Francisco, California, USA.</p>
+  </div>
+
+  <div class="entry">
+    <h3>IASTED International Conference on Circuits, Signal &amp; Systems (CSS 2003) — Open Loop Current Sense Amplifier</h3>
+    <p class="authors">Amit Varde, Shweta Shah, Adrian Nunez-Aldana; "Open Loop Current Sense Amplifier"; CSS 2003; Nov 28 – Dec 21, 2004, Clearwater Beach, Florida, USA.</p>
+  </div>
+
+  <div class="entry">
+    <h3>2004 — Masters Thesis</h3>
+    <p class="authors">Amit Varde; "Design and Automation of A Novel Sense Amplifier Architecture"; Masters Thesis, Syracuse University, Syracuse, New York, USA, May 2004.</p>
+  </div>
+
+  <div class="entry">
+    <h3>IASTED International Conference on Circuits, Signal &amp; Systems (CSS 2003) — Reducing Computational Complexity in Analog Synthesis</h3>
+    <p class="authors">Amit Varde, Sharlet Saldanha, Adrian Nunez-Aldana; "A Methodology to Reduce Computational Complexity in Analog Synthesis"; CSS 2003; May 19–21, 2003, Cancun, Mexico.</p>
+  </div>
+</section>
+
+<footer>© Amit Varde · <a href="/">Home</a></footer>
+
+</main>
+</body>
+</html>
